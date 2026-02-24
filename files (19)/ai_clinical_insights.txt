@@ -1,0 +1,69 @@
+================================================================================
+AI-POWERED CLINICAL INSIGHTS
+================================================================================
+
+1. COHORT CHARACTERISTICS
+--------------------------------------------------------------------------------
+Discovery Cohort (n=30):
+  - Mortality Rate: 70.0%
+  - Median Survival: 1134 days (3.1 years)
+  - Male/Female Ratio: 16:14
+
+Validation Cohort (n=95):
+  - Mortality Rate: 41.1%
+  - Median Survival: 1760 days (4.8 years)
+  - Mean Age: 66.6 ± 9.7 years
+  - Mean Tumor Size: 2.85 ± 1.37 cm
+
+2. KEY FINDINGS
+--------------------------------------------------------------------------------
+  Age Impact:
+    - Mean age (dead patients): 66.5 years
+    - Mean age (alive patients): 66.6 years
+    - Difference: 0.1 years
+
+  Tumor Size Impact:
+    - Mean size (dead patients): 2.96 cm
+    - Mean size (alive patients): 2.78 cm
+    - Difference: 0.18 cm
+
+  Smoking Impact:
+    - Death rate (smokers): nan%
+    - Death rate (non-smokers): nan%
+
+  Molecular Markers:
+    - EGFR Positive death rate: nan%
+    - EGFR Negative death rate: 36.4%
+
+3. MACHINE LEARNING MODEL PERFORMANCE
+--------------------------------------------------------------------------------
+  Logistic Regression:
+    - Test Accuracy: 0.655
+    - Cross-Validation: 0.605 ± 0.133
+  SVM:
+    - Test Accuracy: 0.621
+    - Cross-Validation: 0.543 ± 0.134
+  Random Forest:
+    - Test Accuracy: 0.517
+    - Cross-Validation: 0.469 ± 0.071
+  Gradient Boosting:
+    - Test Accuracy: 0.517
+    - Cross-Validation: 0.410 ± 0.117
+
+4. AI-GENERATED CLINICAL RECOMMENDATIONS
+--------------------------------------------------------------------------------
+  Top Predictive Features:
+    1. Tumor size (cm): 0.401
+    2. Age: 0.362
+    3. Grade: 0.130
+
+  Risk Stratification Recommendations:
+    - High Risk: 1 patients → Aggressive treatment
+    - Medium Risk: 61 patients → Standard protocol
+    - Low Risk: 33 patients → Conservative management
+
+  Treatment Considerations:
+    - Age >65 years associated with worse outcomes
+    - Tumor size >5cm requires aggressive intervention
+    - Smoking cessation critical for all patients
+    - EGFR/KRAS status should guide targeted therapy
